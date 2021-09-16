@@ -1,4 +1,13 @@
 {
   "name": "Demo Webapp",
-  "description": "Web app that does not so wonderful things"
+  "description": "Web app that does not so wonderful things",
+  "repository": "https://github.com/zart/heroku-demo",
+  "logo": "https://raw.githubusercontent.com/gilbarbara/logos/master/logos/fedora.svg",
+  "image": "heroku/python",
+  "env": {
+    "SECRET_KEY": {
+      "description": "App's secret key",
+      "generator": "secret"
+    }
+  }
 }
